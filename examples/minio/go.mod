@@ -1,9 +1,9 @@
-module github.com/minio/minio-go/examples/minio
+module github.com/bfbonatto/minio-go/examples/minio
 
 go 1.21
 
 // Overridden by `replace` below, to point all versions at the local minio-go source, so version shouldn't matter here.
-require github.com/minio/minio-go/v7 v7.0.73
+require github.com/bfbonatto/minio-go/v7 v7.0.73
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
@@ -23,4 +23,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/minio/minio-go/v7 => ../..
+replace github.com/bfbonatto/minio-go/v7 => ../..
