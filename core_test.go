@@ -28,8 +28,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bfbonatto/minio-go/v7/pkg/credentials"
-	"github.com/bfbonatto/minio-go/v7/pkg/encrypt"
+	"github.com/minio/minio-go/v7/pkg/credentials"
+	"github.com/minio/minio-go/v7/pkg/encrypt"
 )
 
 const (

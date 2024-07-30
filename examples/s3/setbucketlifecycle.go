@@ -24,9 +24,9 @@ import (
 	"context"
 	"log"
 
-	"github.com/bfbonatto/minio-go/v7"
-	"github.com/bfbonatto/minio-go/v7/pkg/credentials"
-	"github.com/bfbonatto/minio-go/v7/pkg/lifecycle"
+	"github.com/minio/minio-go/v7"
+	"github.com/minio/minio-go/v7/pkg/credentials"
+	"github.com/minio/minio-go/v7/pkg/lifecycle"
 )
 
 func main() {
